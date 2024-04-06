@@ -2,8 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        open: "url('./assets/images/icon-menu.svg')",
+        close: "url('./assets/images/icon-menu-close.svg')",
+      },
+    },
   },
   plugins: [],
-}
-
+};

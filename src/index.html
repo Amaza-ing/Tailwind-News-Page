@@ -9,10 +9,23 @@
   <body>
     <header class="flex justify-between mx-5 my-5 sm:mx-20">
       <div class="text-3xl font-bold">W.</div>
-      <nav class="text-xs">
-        <button class="flex h-full items-center sm:hidden">
-          <img src="./assets/images/icon-menu.svg" alt="menu" />
-        </button>
+      <nav class="text-xs flex items-center">
+        <input type="checkbox" id="menu" class="peer hidden" />
+        <label
+          for="menu"
+          class="z-10 bg-open peer-checked:bg-close block w-10 h-5 bg-cover bg-center cursor-pointer transition-all sm:hidden"
+        ></label>
+        <div
+          class="fixed inset-0 w-full h-full bg-gray-700/75 translate-x-full peer-checked:translate-x-0 transition-transform flex justify-end"
+        >
+          <ul class="flex flex-col gap-5 text-lg pt-40 pl-5 bg-white h-full w-60">
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Trending</li>
+            <li>Categories</li>
+          </ul>
+        </div>
         <ul class="hidden sm:flex sm:gap-6 sm:h-full sm:items-center">
           <li>Home</li>
           <li>New</li>
