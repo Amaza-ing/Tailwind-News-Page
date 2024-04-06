@@ -1,4 +1,4 @@
-``` PROYECTO DE TAILWIND ```
+# `PROYECTO DE TAILWIND `
 
 Proyecto donde se replica un diseño responsivo utilizando únicamente Tailwind
 
