@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      'inter': ['inter']
+    },
     extend: {
       backgroundImage: {
         open: "url('./assets/images/icon-menu.svg')",

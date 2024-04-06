@@ -444,6 +444,12 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: inter;
+
+  src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -552,14 +558,6 @@ video {
   inset: 0px;
 }
 
-.right-0 {
-  right: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -583,26 +581,6 @@ video {
   margin-bottom: 1.25rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
 .block {
   display: block;
 }
@@ -619,12 +597,12 @@ video {
   height: 1.25rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-80 {
   height: 20rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-10 {
@@ -633,10 +611,6 @@ video {
 
 .w-12 {
   width: 3rem;
-}
-
-.w-80 {
-  width: 20rem;
 }
 
 .w-60 {
@@ -672,20 +646,12 @@ video {
   justify-content: flex-end;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .justify-between {
   justify-content: space-between;
 }
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .gap-5 {
@@ -705,6 +671,10 @@ video {
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
 }
 
+.bg-gray-700\/75 {
+  background-color: rgb(55 65 81 / 0.75);
+}
+
 .bg-orange-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
@@ -718,31 +688,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-
-.bg-slate-500\/25 {
-  background-color: rgb(100 116 139 / 0.25);
-}
-
-.bg-slate-500\/50 {
-  background-color: rgb(100 116 139 / 0.5);
-}
-
-.bg-gray-400\/50 {
-  background-color: rgb(156 163 175 / 0.5);
-}
-
-.bg-gray-400\/75 {
-  background-color: rgb(156 163 175 / 0.75);
-}
-
-.bg-gray-700\/75 {
-  background-color: rgb(55 65 81 / 0.75);
 }
 
 .bg-open {
@@ -781,16 +726,24 @@ video {
   padding-bottom: 1rem;
 }
 
-.pt-40 {
-  padding-top: 10rem;
-}
-
 .pl-5 {
   padding-left: 1.25rem;
 }
 
-.align-middle {
-  vertical-align: middle;
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.font-\[\] {
+  font-family: ;
+}
+
+.font-\[\'\'\] {
+  font-family: '';
+}
+
+.font-\[\'inter\'\] {
+  font-family: 'inter';
 }
 
 .text-2xl {
@@ -808,6 +761,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -816,16 +774,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
