@@ -623,6 +623,10 @@ video {
   height: 100%;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
